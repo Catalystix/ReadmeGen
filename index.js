@@ -43,7 +43,7 @@ const licenseQuestions = [];
             {
                 type: 'input',
                 message: 'What makes your project stand out?',
-                name: 'Stand',
+                name: 'stand',
             },
             {
                 type: 'input',
@@ -58,8 +58,8 @@ const licenseQuestions = [];
             },
             {
                 type: 'list',
-                message: 'What is your preferred method of communication?',
-                name: 'Comm-method',
+                message: 'How Do you install this',
+                name: 'instal',
                 choices: ['email', 'call', 'text']
             },
            

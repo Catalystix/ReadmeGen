@@ -5,15 +5,18 @@ function renderLicenseBadge(licenseBadge) {
   if (licenseBadge === 'MIT') {
     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   } else if (licenseBadge === 'GPLv3') {
-    yourLicense = `![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    yourLicense = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`
   } else if (licenseBadge === 'GPL') {
-    yourLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
+    yourLicense = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`
   } else {
     yourLicense = "N/A"
     
   }
   return yourLicense
 };
+
+//making sure to return the variable at the end of the function to get the else if statment to 
+//display
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -23,9 +26,9 @@ function renderLicenseLink(license) {
   if (licenseType === 'MIT') {
     yourLicense = `![License: MIT](https://https://www.mit.edu/~amini/LICENSE.md)`
   } else if (licenseType === 'GPLv3') {
-    yourLicense = `![GPLv3 license](https://https://license.md/licenses/gnu-general-public-license-v3-0/)`
+    yourLicense = `![Apachi license](https://opensource.org/licenses/Apache-2.0)`
   } else if (licenseType === 'GPL') {
-    yourLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
+    yourLicense = `![GPL license](https://www.gnu.org/licenses/gpl-3.0)`
   } else {
     yourLicense = "N/A"
    
@@ -67,7 +70,11 @@ function generateMarkdown(response) {
   ${response.contribute}
 
   ## Questions
-  ${response.username}
+  ${response.learn}
+  ${response.stand}
+  ${response.pSolve}
+  ${response.motivation}
+  ${response.build}
  
   
   ## Licensing
