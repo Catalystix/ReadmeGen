@@ -65,6 +65,10 @@ function generateMarkdown(response) {
 
   ## Installation
   ${response.instal}
+  - [Installation]
+  Clone this repository to your desktop
+  Navigate to the top level of the directory
+  open index.html
 
   ## Contributing
   ${response.contribute}
