@@ -10,7 +10,7 @@ function renderLicenseBadge(licenseBadge) {
     yourLicense = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`
   } else {
     yourLicense = "N/A"
-    
+
   }
   return yourLicense
 };
@@ -31,7 +31,7 @@ function renderLicenseLink(license) {
     yourLicense = `![GPL license](https://www.gnu.org/licenses/gpl-3.0)`
   } else {
     yourLicense = "N/A"
-   
+
   }
   return yourLicense
 };
@@ -74,10 +74,15 @@ function generateMarkdown(response) {
   ${response.contribute}
 
   ## Questions
+  What did you learn?
   ${response.learn}
+  What makes your project stand out?
   ${response.stand}
+  What problem does it solve?
   ${response.pSolve}
+  What was your motivation?
   ${response.motivation}
+  Why did you build this project?
   ${response.build}
  
   

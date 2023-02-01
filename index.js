@@ -22,14 +22,15 @@ const licenseQuestions = [];
             },
             {
                 type: 'input',
-                message: 'What was your motivation?',
-                name: 'motivation',
-            },
-            {
-                type: 'input',
                 message: 'Why did you build this project?',
                 name: 'build',
             },
+            {
+                type: 'input',
+                message: 'What was your motivation?',
+                name: 'motivation',
+            },
+           
             {
                 type: 'input',
                 message: 'What problem does it solve?',
@@ -60,7 +61,7 @@ const licenseQuestions = [];
                 type: 'list',
                 message: 'How Do you install this',
                 name: 'instal',
-                choices: ['email', 'call', 'text']
+                choices: ['Will follow installation template']
             },
            
 
@@ -68,6 +69,7 @@ const licenseQuestions = [];
         .then((response) => {
             writeToFile('README.md', response);
             console.log('Thanks for your time!')
+            console.log('message', response)
         });
 
 // TODO: Create a function to write README file

@@ -2,7 +2,7 @@
   
   # 
 
-  # ![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)
+  # ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Table of Contents
   - [Project Description](#Description)
@@ -16,14 +16,23 @@
   
 
   ## Installation
-  undefined
+  Will follow installation template
+  - [Installation]
+  Clone this repository to your desktop
+  Navigate to the top level of the directory
+  open index.html
 
   ## Contributing
   
 
   ## Questions
+  undefined
+  undefined // how Do I render the question here as well with the answer to follow?
+  
+  
+  
   
  
   
   ## Licensing
-   ![GPLv3 license](https://https://license.md/licenses/gnu-general-public-license-v3-0/) 
+   ![License: MIT](https://https://www.mit.edu/~amini/LICENSE.md) 
