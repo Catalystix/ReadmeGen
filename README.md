@@ -45,10 +45,12 @@
   Why did you build this project?
   
   As an assigned homework and to build upon my skillset
+
+  [label](./images/c9%20HW%20SC%20%231.jpg)
+  [label](./images/c9%20HW%20SC%20%232.jpg)
  
   
   ## Licensing
    ![License: MIT](https://https://www.mit.edu/~amini/LICENSE.md) 
 
-   [label](./images/c9%20HW%20SC%20%231.jpg)
-   [label](./images/c9%20HW%20SC%20%232.jpg)
+ 
