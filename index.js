@@ -3,8 +3,8 @@ const genMd = require('./utils/generateMarkdown');
 
 const fs = require('fs');
 // TODO: Create an array of questions for user input
-const questions = [];
-const licenseQuestions = [];
+// const questions = [];
+// const licenseQuestions = [];
 
 
     const inquirer = require('inquirer');
@@ -12,7 +12,7 @@ const licenseQuestions = [];
         .prompt([
             {
                 type: 'input',
-                message: 'What is the title of your project',
+                message: 'What is the title of your project?',
                 name: 'title',
             },
             {
@@ -39,7 +39,7 @@ const licenseQuestions = [];
             {
                 type: 'input',
                 message: 'What did you learn?',
-                name: 'Learn',
+                name: 'learn',
             },
             {
                 type: 'input',

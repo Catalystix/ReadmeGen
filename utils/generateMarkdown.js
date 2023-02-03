@@ -75,14 +75,23 @@ function generateMarkdown(response) {
 
   ## Questions
   What did you learn?
+
   ${response.learn}
+
   What makes your project stand out?
+
   ${response.stand}
+
   What problem does it solve?
+
   ${response.pSolve}
+
   What was your motivation?
+
   ${response.motivation}
+
   Why did you build this project?
+  
   ${response.build}
  
   
